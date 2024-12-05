@@ -4,7 +4,8 @@ body {
 }
 
 main {
-  padding: 40px;
+  margin: 0;
+  padding: 0;
   justify-content: space-between;
 }
 
@@ -53,18 +54,20 @@ p{
 #a-header {
   font-family: "header";
   font-size: 16px;
-  color: rgb(255, 237, 237);
-  text-decoration: none;
-  margin: 30px;
-}
-
-a:hover {
-  font-family: "header";
-  font-size: 20px;
   color: #000;
   text-decoration: none;
   margin: 30px;
+
+  transition: 0.2s;
+}
+
+#a-header:hover {
+  font-family: "header";
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
   text-decoration: underline;
+  margin: 30px;
 }
 
 h1 {
@@ -82,7 +85,7 @@ h2 {
   justify-self: center;
   justify-content: space-around;
   align-items: center;
-  background-color:#fbf806 ;
+  background-color:#ffc74b ;
   border: 2px black;
   border-style: solid;
   border-radius: 10px;
@@ -169,18 +172,20 @@ h2 {
 #a-button {
   font-family: "regular";
   font-size: 20px;
-  border: #070000;
-  background: none;
-  text-decoration: none;
-
-}
-
-#a-button :hover{
-  font-size: 20px;
+  color: #000;
   border: #000;
   background: none;
   text-decoration: none;
+  transition: 0.2s;
+}
 
+#a-button:hover{
+  font-size: 20px;
+  border: #000;
+  color: #000;
+  background: none;
+  text-decoration: none;
+  text-decoration: underline;
 }
 
 form{
@@ -192,7 +197,7 @@ form{
 label{
   font-family: "regular-bold";
 }
-input[type=text], textarea {
+input , textarea{
   font-family: "regular";
   width: 100%; 
   padding: 12px;  
@@ -219,10 +224,15 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+#div-contato {
+  width: 100%;
+}
+
 .CONTATO {
   font-family: "regular";
   border-radius: 5px;
   padding: 20px;
+  margin: 10px;
 }
 
 .footer {
@@ -239,6 +249,7 @@ input[type=submit]:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-self: center;
   margin: 10px;
   flex-wrap: wrap;
 }
@@ -257,7 +268,7 @@ input[type=submit]:hover {
 
 .footer p {
   color: #000;
-  margin: 15px 0 10px 0;
+  margin: 10px;
   font-size: 18px;
   font-weight: 300;
 }

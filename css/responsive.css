@@ -1,13 +1,13 @@
 @media screen and (max-width: 640px) {
 
-    a{
+    #a-header{
         font-size: 9px;
-        margin: 15px;
+        margin: 5px;
     }
 
-    a:hover {
+    #a-header:hover {
         font-size: 10px;
-        margin: 30px;
+        margin: 5px;
       }
 
     #div-vaca{
@@ -32,19 +32,20 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        padding: 20px;
     }
 
     #div-ajuda{
         display: flex;
         flex-direction: column;
-        justify-self: center;
         justify-content: center;
         margin: 10px;
     }
 
     #div-ajuda-text{
-        width: auto;
+        width: 80%;
         justify-self: center;
+        justify-content: center;
         padding: 10px;
     }
 
@@ -55,5 +56,9 @@
     }
     #div-produto{
         padding: 10px;
+    }
+    img{
+        width: 180px;
+        height: 180px;
     }
 }

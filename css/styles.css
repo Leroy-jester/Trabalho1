@@ -123,6 +123,9 @@ h2 {
   border-style: solid;*/
   margin: 10px;
 }
+#div-parpas-produto > h1{
+  justify-self: center;
+}
 
 .div-parpas{
   display: flex;
@@ -137,6 +140,18 @@ h2 {
 #p-claro{
   font-size: 14px;
   font-family: "regular";
+}
+
+
+
+.container-div-ajuda{
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-div-ajuda > h1{
+  justify-self: center; 
+  font-family: "regular-bold";
 }
 
 #div-ajuda {
@@ -186,6 +201,11 @@ h2 {
   background: none;
   text-decoration: none;
   text-decoration: underline;
+}
+
+#div-contato > h1{
+  justify-self: center;
+  font-family: "regular-bold";
 }
 
 form{

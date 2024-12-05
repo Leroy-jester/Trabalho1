@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  background-color: #FEF3E2;
+}
+
+main {
+  padding: 40px;
+  justify-content: space-between;
+}
+
+header {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+background-color: #FAB12F;
+height: 60px;
+}
+
+#imglogo{
+  width: 50px;
+  height: 44px;
+  justify-self: center;
+  border-radius: 100%;
+}
+
+img{
+  width: 220px;
+  height: 200px;
+}
+
+#logo {
+  display: flex;
+  background-color: #fbf806;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+#lista-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+p{
+  font-family: "regular";
+  font-size: 22px;
+}
+
+#a-header {
+  font-family: "header";
+  font-size: 16px;
+  color: rgb(255, 237, 237);
+  text-decoration: none;
+  margin: 30px;
+}
+
+a:hover {
+  font-family: "header";
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  margin: 30px;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "logo";
+}
+h2 {
+  font-size: 20px;
+  font-family: "regular-bold";
+}
+
+#div-produto{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#fbf806 ;
+  border: 2px black;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 20px; 
+  width: auto; 
+  height: 300px;
+  margin: 10px;
+}
+
+#div-entrada{
+  justify-self: center;
+  height: auto;
+  width: 80%;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+#vaca{
+  width: 185px;
+  height: 185px;
+}
+#div-vaca{
+  align-self: center;
+  width: 185px;
+  height: 185px;
+  /*border: 1px #000;
+  border-style: solid;*/
+  margin: 10px;
+}
+#div-text{
+  align-self: center;
+  height: auto;
+  /*border: 1px #000;
+  border-style: solid;*/
+  margin: 10px;
+}
+
+.div-parpas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-self: center;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 20px;
+}
+
+#p-claro{
+  font-size: 14px;
+  font-family: "regular";
+}
+
+#div-ajuda {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 70%;
+  justify-self: center;
+}
+
+#div-ajuda > div {
+  display: flex;
+  flex-basis: calc(50% - 30px);
+  justify-content: center;
+  flex-direction: column;
+}
+
+#div-ajuda > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#div-ajuda-text {
+  width: 5%;
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+#a-button {
+  font-family: "regular";
+  font-size: 20px;
+  border: #070000;
+  background: none;
+  text-decoration: none;
+
+}
+
+#a-button :hover{
+  font-size: 20px;
+  border: #000;
+  background: none;
+  text-decoration: none;
+
+}
+
+form{
+  width: 60%;
+  height: auto;
+  justify-self: center;
+}
+
+label{
+  font-family: "regular-bold";
+}
+input[type=text], textarea {
+  font-family: "regular";
+  width: 100%; 
+  padding: 12px;  
+  border: 2px solid #ccc; 
+  border-radius: 10x; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  font-family: "regular";
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  font-family: "regular";
+  background-color: #45a049;
+}
+
+.CONTATO {
+  font-family: "regular";
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.social-icon__item{
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 32px;
+  color: #000;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.footer p {
+  color: #000;
+  margin: 15px 0 10px 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
